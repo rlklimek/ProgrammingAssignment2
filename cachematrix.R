@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This function takes a matrix inputed by the user an eith caches it or inverts the matrix
 
-## Write a short comment describing this function
+## This function takes the input from the user and saves it in a cache
 
 makeCacheMatrix <- function(x = matrix()) {
  	m <- NULL
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function creates an inverse of the cashed function from makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
